@@ -18,4 +18,4 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. **Clone o repositório**
 
 
-   git clone https://github.com/Juanmalachias/WorldGeek.git
+   git clone https://github.com/Juanmalachias/worldgeek.git
