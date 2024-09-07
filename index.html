@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div  class="menu">
+            <img class="logo" src="./asserts/logo.png" alt="">
+        <nav>
+            <ul>
+                
+                <input id="search-input"  class="barra" type="text" placeholder="Digite o nome do produtos">
+                <button class="button-geral" id="search-button" onclick="">Pesquisar</button>
+                <a class="button-geral" class="navbar-button" href="index.html">Produtos</a>
+                <a class="button-geral" href="cart.html"><button id="cart-button">Carrinho (0)</button></a>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main class="elemento">
+        <section id="products">
+            <!-- Produtos serão injetados aqui com JavaScript -->
+             
+        </section>
+        <p id="no-products-message" style="display: none;">Produto não encontrado.</p>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h3>Sobre Nós</h3>
+                    <p>Na Worldgeek, somos apaixonados por produtos geek e nerd! Oferecemos uma vasta seleção de
+                        merchandising exclusivo, colecionáveis raros, gadgets inovadores e livros fascinantes. Nosso
+                        compromisso é garantir qualidade e autenticidade, proporcionando uma experiência de compra
+                        personalizada e envolvente. Conecte-se com sua paixão geek e descubra o melhor do universo nerd
+                        conosco!</p>
+                </div>
+                <div class="column">
+                    <h3>Contato</h3>
+                    <p>Av Faria Lima, tel:(11) 4002-8922 woorgeek@gmail.com.</p>
+                </div>
+                <div class="column">
+                    <h3>Redes Sociais</h3>
+                    <ul class="social-media " >
+                        <li><img class="redes" src="./asserts/facebook.png" alt=""><a href="#">Facebook</a></li>
+                        <li><img class="redes" src="./asserts/instagram.png" alt=""><a href="#">Instagram</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2024 - Worldgeek Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let produtos = JSON.parse(localStorage.getItem("cart"))
+        if (!produtos) produtos = []
+        document.getElementById("cart-button").textContent = `Carrinho (${produtos.length})`
+    </script>
+    <script src="dados.js"></script>
+    <script src="apps.js"></script>
+</body>
+
+</html>

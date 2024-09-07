@@ -1,0 +1,536 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 10px 20px; /* Espaçamento interno do cabeçalho */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo dos links no cabeçalho */
+header a {
+    padding: 8px 16px; /* Espaçamento interno dos links */
+    font-size: 16px; /* Tamanho da fonte dos links */
+    font-weight: bold; /* Peso da fonte dos links */
+    color: #fff; /* Cor do texto dos links */
+    background-color: #007bff; /* Cor de fundo dos links */
+    border-radius: 5px; /* Bordas arredondadas dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Transição suave para o efeito de hover */
+}
+
+/* Efeito de hover para links no cabeçalho */
+header a:hover {
+    background-color: #0056b3; /* Cor de fundo dos links ao passar o mouse */
+}
+
+/* Estilo da barra de navegação */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaço entre os itens da barra de navegação */
+    margin-top: 10px; /* Espaçamento superior para separar do cabeçalho */
+}
+
+/* Estilo das imagens na barra de navegação */
+.menu img {
+    height: 80px; /* Altura das imagens na barra de navegação */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo dos botões na barra de navegação */
+.navbar-button {
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    font-size: 16px; /* Tamanho da fonte dos botões */
+    font-weight: bold; /* Peso da fonte dos botões */
+    color: #fff; /* Cor do texto dos botões */
+    background-color: #007bff; /* Cor de fundo dos botões */
+    border: none; /* Remove a borda dos botões */
+    border-radius: 5px; /* Bordas arredondadas dos botões */
+    cursor: pointer; /* Cursor pointer para indicar que é clicável */
+    text-decoration: none; /* Remove o sublinhado dos botões */
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Transição suave para o efeito de hover */
+}
+
+/* Efeito de hover para botões na barra de navegação */
+.navbar-button:hover {
+    background-color: #0056b3; /* Cor de fundo dos botões ao passar o mouse */
+}
+
+#search-button {
+    background-color: hsl(211, 100%, 50%);
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#cart-button{
+    background-color: #0057b300;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo da barra de navegação */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Estilo das imagens no menu */
+.menu img {
+    height: 80px; /* Ajuste a altura da imagem conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo dos botões no cabeçalho e na barra de navegação */
+header a, .navbar-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover para botões */
+header a:hover, .navbar-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo dos links no cabeçalho */
+header a {
+    margin-left: 20px;
+}
+
+/* Estilo dos botões da barra de navegação */
+.navbar-button {
+    display: flex;
+    align-items: center;
+}
+
+
+.elemento {
+  background-image: linear-gradient(to right, #8e44ad, #2980b9);
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+    display: flex;
+    flex-direction: column; /* Alinha os elementos em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Alinha itens verticalmente dentro do menu */
+    gap: 15px; /* Espaço entre os itens do menu, ajuste conforme necessário */
+}
+
+.menu img {
+    height: 150px; /* Ajuste a altura da imagem conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+}
+.navbar-button {
+    
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.barra {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+
+
+main {
+    margin-top: 100px;
+    /* Para evitar sobreposição com o header fixo */
+    padding: 40px;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+
+.product button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+
+#carrinho {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .item-carrinho {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+
+  /*pagina do prouto */
+  #product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-detail {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.product img {
+    max-width: auto;
+    max-height: 170px;
+}
+
+.product-detail h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-detail p {
+    font-size: 18px;
+    color: #555;
+}
+
+.product-detail button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.product-detail button:hover {
+    background-color: #218838;
+}
+
+header a {
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+header a:hover {
+    background-color: #0056b3;
+}
+
+
+.product a {
+    text-decoration: none;
+    color: black;
+}
+  
+.product a:active {
+    color: #666;
+}
+.product:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+#cart-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+}
+
+#total-price {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#checkout-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#checkout-button:hover {
+    background-color: #218838;
+}
+
+
+footer {
+    background-color: #333;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+
+.social-media {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    display: flex; /* Usa Flexbox para alinhar itens horizontalmente */
+    
+}
+
+.social-media li {
+    margin-right: 20px; /* Espaço entre os itens da lista */
+    display: flex; /* Alinha o conteúdo dos itens da lista horizontalmente */
+    align-items: center; /* Alinha verticalmente o conteúdo dos itens da lista */
+}
+
+.redes {
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    height: 30px; /* Ajuste a altura da imagem conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+    border-radius: 30px;
+    background-color: #fff;
+}
+.column1{
+    display: flex; /* Alinha o conteúdo dos itens da lista horizontalmente */
+    
+}
+
+.social-media li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #fff; /* Cor do texto do link, ajuste conforme necessário */
+}
+
+.a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+#no-products-message {
+    color: red; /* Exemplo de estilo */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    color: #333; /* Cor do texto */
+    background-color: #f4f4f4; /* Cor de fundo */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Alinha o texto ao centro */
+    position: fixed; /* Cabeçalho fixo no topo */
+    width: 100%; /* Cabeçalho ocupa toda a largura da página */
+    top: 0; /* Alinha o cabeçalho ao topo da página */
+    left: 0; /* Alinha o cabeçalho à esquerda da página */
+    z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+}
+
+/* Estilo do conteúdo principal */
+main {
+    margin-top: 100px; /* Espaçamento superior para evitar sobreposição com o cabeçalho fixo */
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilo da seção de confirmação */
+.confirmation {
+    background-color: #fff; /* Cor de fundo da seção de confirmação */
+    border-radius: 8px; /* Bordas arredondadas da seção */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra da seção */
+    padding: 40px; /* Espaçamento interno da seção */
+    max-width: 600px; /* Largura máxima da seção */
+    margin: 20px auto; /* Espaçamento automático nas laterais */
+}
+
+/* Estilo do botão */
+.btn {
+    display: inline-block; /* Faz com que o botão se comporte como um bloco inline */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    font-weight: bold; /* Peso da fonte do botão */
+    color: #fff; /* Cor do texto do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    text-decoration: none; /* Remove o sublinhado do botão */
+    transition: background-color 0.3s ease; /* Transição suave para o efeito de hover */
+}
+
+/* Efeito de hover para o botão */
+.btn:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    width: 100%; /* Rodapé ocupa toda a largura da página */
+    bottom: 0; /* Alinha o rodapé ao fundo da página */
+    left: 0; /* Alinha o rodapé à esquerda da página */
+}
